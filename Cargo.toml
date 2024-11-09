@@ -11,8 +11,8 @@ categories = ["gui"]
 license = "MIT"
 
 [dependencies]
-dioxus-lib = { git = "https://github.com/DioxusLabs/dioxus", default-features = false, features = ["macro", "hooks", "signals"] }
-generational-box = { git = "https://github.com/DioxusLabs/dioxus/" }
+dioxus-lib = { git = "https://github.com/DioxusLabs/dioxus", default-features = false, features = ["macro", "hooks", "signals"], version = "0.6.0-alpha.4" }
+generational-box = { git = "https://github.com/DioxusLabs/dioxus/", version = "0.6.0-alpha.4" }
 
 [dev-dependencies]
-dioxus = { git = "https://github.com/DioxusLabs/dioxus", features = ["desktop"]}
+dioxus = { features = ["desktop"], git = "https://github.com/DioxusLabs/dioxus", version = "0.6.0-alpha.4" }
