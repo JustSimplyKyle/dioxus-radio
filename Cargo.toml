@@ -15,4 +15,4 @@ dioxus-lib = { git = "https://github.com/DioxusLabs/dioxus", default-features = 
 generational-box = { git = "https://github.com/DioxusLabs/dioxus/", rev = "8b586352a26e2728529e708071d8359667a0d2a2" }
 
 [dev-dependencies]
-dioxus = { features = ["desktop"], git = "https://github.com/DioxusLabs/dioxus", version = "8b586352a26e2728529e708071d8359667a0d2a2" }
+dioxus = { features = ["desktop"], git = "https://github.com/DioxusLabs/dioxus", rev = "8b586352a26e2728529e708071d8359667a0d2a2" }
